@@ -46,7 +46,7 @@ class _VideoDownloaderState extends State<VideoDownloader> {
 
     try {
       final response = await http.post(
-        Uri.parse('http://192.168.1.31:7777/get_formats'),
+        Uri.parse('http://app.abdulmuiz.net:7777/get_formats'),
         headers: {'Content-Type': 'application/json'},
         body: jsonEncode({'url': url}),
       );
@@ -80,7 +80,7 @@ class _VideoDownloaderState extends State<VideoDownloader> {
 
     try {
       final response = await http.post(
-        Uri.parse('http://192.168.1.31:7777/download'),
+        Uri.parse('http://app.abdulmuiz.net:7777/download'),
         headers: {'Content-Type': 'application/json'},
         body: jsonEncode({
           'url': urlController.text,
