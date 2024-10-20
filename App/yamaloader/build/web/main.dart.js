@@ -80294,7 +80294,7 @@ var $async$wY=A.W(function(a,b){if(a===1){o=b
 s=p}while(true)switch(s){case 0:if(n.f==null||n.d.a.a.length===0){s=1
 break}n.ao(new A.agg(n))
 p=4
-i=A.fG("http://localhost:5000/download")
+i=A.fG("http://192.168.1.31:7777/download")
 h=t.N
 g=A.ay(["Content-Type","application/json"],h,h)
 s=7
