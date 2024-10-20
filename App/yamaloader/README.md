@@ -1,6 +1,6 @@
 # yamaloader
 
-Youtube Video Downloader
+A new Flutter project.
 
 ## Getting Started
 
