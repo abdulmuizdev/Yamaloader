@@ -80263,7 +80263,7 @@ s=p}while(true)switch(s){case 0:f=m.d.a.a
 if(J.ck(f)===0){s=1
 break}m.ao(new A.agi(m))
 p=4
-j=A.fG("http://localhost:5000/get_formats")
+j=A.fG("http://192.168.1.31:7777/get_formats")
 i=t.N
 h=A.ay(["Content-Type","application/json"],i,i)
 s=7
